@@ -57,7 +57,7 @@ text = Text(width=50, height=25)
 text.pack()
 
 cont_menu = Menu(text, tearoff=0)
-cont_menu.add_command(label="Отчистить", command=del_txt)
+cont_menu.add_command(label="Очистить", command=del_txt)
 
 text.bind('<Button-3>', lambda temp: cont_menu.post(temp.x_root, temp.y_root))
 
